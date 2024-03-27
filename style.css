@@ -1,0 +1,33 @@
+body {
+    background-color: midnightblue;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    
+}
+
+.border {
+    border: 2px solid hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(250, 50%, 58%);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(250, 50%, 50%);
+}
